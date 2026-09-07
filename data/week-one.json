@@ -1,0 +1,52 @@
+{
+  "week": "week-one",
+  "team": "가상 제품팀",
+  "period_start": "2026-08-31",
+  "report_date": "2026-09-04",
+  "records": [
+    {
+      "id": "TASK-101",
+      "title": "검색 결과 정렬 수정",
+      "owner": "민수",
+      "status": "배포 완료",
+      "due_date": "2026-09-03",
+      "deployed_at": "2026-09-03",
+      "verification": "통과",
+      "blocker": null,
+      "note": "운영 환경에서 정렬 순서를 확인했다."
+    },
+    {
+      "id": "TASK-102",
+      "title": "로그인 안내 문구 개선",
+      "owner": "지우",
+      "status": "개발 완료",
+      "due_date": "2026-09-07",
+      "deployed_at": null,
+      "verification": "미실시",
+      "blocker": null,
+      "note": "코드 작성은 끝났으며 다음 배포를 기다린다."
+    },
+    {
+      "id": "TASK-103",
+      "title": "결제 알림 연결",
+      "owner": null,
+      "status": "진행 중",
+      "due_date": "2026-09-03",
+      "deployed_at": null,
+      "verification": "미실시",
+      "blocker": "외부 결제사 테스트 계정 미발급",
+      "note": "테스트 계정 없이는 연결 시험을 진행할 수 없다."
+    },
+    {
+      "id": "TASK-104",
+      "title": "도움말 링크 정리",
+      "owner": "서연",
+      "status": "진행 중",
+      "due_date": "2026-09-04",
+      "deployed_at": null,
+      "verification": "미실시",
+      "blocker": null,
+      "note": "오늘 기한이며 링크 목록을 점검 중이다."
+    }
+  ]
+}

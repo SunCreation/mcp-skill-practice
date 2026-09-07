@@ -1,0 +1,14 @@
+{
+  "_meta": null,
+  "content": [
+    {
+      "type": "text",
+      "text": "{\n  \"title\": \"Example Spreadsheet\",\n  \"sheet\": \"Class Data\",\n  \"range\": \"'Class Data'!A1:C3\",\n  \"values\": [\n    [\n      \"Student Name\",\n      \"Gender\",\n      \"Class Level\"\n    ],\n    [\n      \"Alexandra\",\n      \"Female\",\n      \"4. Senior\"\n    ],\n    [\n      \"Andrew\",\n      \"Male\",\n      \"1. Freshman\"\n    ]\n  ]\n}",
+      "annotations": null,
+      "_meta": null
+    }
+  ],
+  "structuredContent": null,
+  "isError": false,
+  "resultType": "complete"
+}

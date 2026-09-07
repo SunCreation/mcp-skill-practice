@@ -1,0 +1,52 @@
+{
+  "week": "week-two",
+  "team": "가상 제품팀",
+  "period_start": "2026-09-07",
+  "report_date": "2026-09-11",
+  "records": [
+    {
+      "id": "TASK-201",
+      "title": "프로필 이미지 안내 개선",
+      "owner": "민수",
+      "status": "개발 완료",
+      "due_date": "2026-09-11",
+      "deployed_at": null,
+      "verification": "미실시",
+      "blocker": null,
+      "note": "개발은 끝났지만 아직 배포하지 않았다."
+    },
+    {
+      "id": "TASK-202",
+      "title": "검색 필터 추가",
+      "owner": "서연",
+      "status": "배포 완료",
+      "due_date": "2026-09-14",
+      "deployed_at": "2026-09-10",
+      "verification": "대기",
+      "blocker": null,
+      "note": "배포했으며 운영 환경 확인 결과는 아직 없다."
+    },
+    {
+      "id": "TASK-102",
+      "title": "로그인 안내 문구 개선",
+      "owner": "지우",
+      "status": "배포 완료",
+      "due_date": "2026-09-07",
+      "deployed_at": "2026-09-07",
+      "verification": "통과",
+      "blocker": null,
+      "note": "운영 환경에 반영하고 문구를 확인했다."
+    },
+    {
+      "id": "TASK-204",
+      "title": "접속 오류 기록 정리",
+      "owner": "민수",
+      "status": "진행 중",
+      "due_date": "2026-09-09",
+      "deployed_at": null,
+      "verification": "미실시",
+      "blocker": null,
+      "note": "지연 원인은 기록되어 있지 않다."
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+[project]
+name = "mcp-skill-practice"
+version = "0.1.0"
+description = "Local MCP servers and reusable team-report skills for practice"
+requires-python = ">=3.10"
+dependencies = ["mcp[cli]==2.1.1"]
+
+[project.optional-dependencies]
+google = [
+    "google-api-python-client==2.200.0",
+    "google-auth==2.57.1",
+    "google-auth-httplib2==0.4.2",
+    "google-auth-oauthlib==1.4.1",
+]
+
+[tool.uv]
+package = false
