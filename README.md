@@ -116,7 +116,7 @@ Claude Code에서는 `/team-weekly-report`로 명시 호출할 수 있습니다.
 
 ## 프로젝트 설정과 추가 의존성
 
-`pyproject.toml`이 설치 요구 사항의 기준이며 `uv.lock`은 그 요구 사항을 만족하는 직접·간접 패키지 버전을 기록합니다. `.python-version`의 3.13은 기본 실행 버전이고 `requires-python = ">=3.10"`은 코드가 허용하는 범위입니다. 잠금 파일은 패키지 버전을 고정하며 Python의 패치 버전까지 고정하지는 않습니다.
+`pyproject.toml`이 설치 요구 사항의 기준이며 `uv.lock`은 그 요구 사항을 만족하는 직접·간접 패키지 버전을 기록합니다. `.python-version`의 3.13은 기본 실행 버전이고 `requires-python = ">=3.11"`은 MCP Python SDK가 요구하는 최소 버전입니다. 잠금 파일은 패키지 버전을 고정하며 Python의 패치 버전까지 고정하지는 않습니다.
 
 Google 실습에서는 `uv sync --locked --extra google`로 같은 환경에 추가 패키지를 준비합니다. Google 프로그램을 실행할 때에도 `uv run --locked --extra google ...`처럼 해당 묶음을 명시합니다. 자세한 인증 절차와 MCP 등록은 `GOOGLE_AUTH_README.md`를 따릅니다. Colab MCP는 별도 공개 프로그램이므로 교안의 `uvx` 경로를 사용하며 이 프로젝트의 기본 의존성에 넣지 않았습니다.
 
